@@ -24,6 +24,17 @@ public class Circle implements Shape
             return true;
         else
             return false;
+<<<<<<< HEAD
+=======
+    }
+    
+    public void draw(){
+        System.out.println("반지름이 " + radius +"인 " + "원입니다.");
+    }
+    
+    public double getArea(){
+        return radius * radius * PI;
+>>>>>>> 30cc623682697b1ef62af698c5526142e9e4aec1
     }
     
     public void draw(){
