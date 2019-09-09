@@ -1,5 +1,5 @@
 package base;
-
+import myInterface.Shape;
 /**
  * 여기에 Circle 클래스 설명을 작성하십시오.
  * @author (2018315033 태영준, 2018315021 방대호, 2018315051 Yamamoto Yoshika)
@@ -19,7 +19,23 @@ public class Circle implements Shape
         this.radius = radius;
     }
 
+<<<<<<< HEAD
     public boolean equals(){
         return
+=======
+    public boolean equals(Object obj){
+        if(c1.equals(c2))
+            return true;
+        else
+            return false;
+    }
+    
+    public void draw(){
+        System.out.println("반지름이 " + radius +"인 " + "원입니다.");
+    }
+    
+    public double getArea(){
+        return radius * radius * PI;
+>>>>>>> 7cb5e58148009917560bd38c69b4d33a16763cf0
     }
 }
