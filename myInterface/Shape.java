@@ -3,8 +3,8 @@ package myInterface;
 /**
  * Write a description of class Shape here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (2018315033 태영준, 2018315021 방대호, 2018315051 Yamamoto Yoshika)
+ * @version (2019.09.09)
  */
 interface Shape{   
     final double PI = 3.14;        
