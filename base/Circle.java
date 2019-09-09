@@ -3,15 +3,9 @@ package base;
 
 /**
  * 여기에 Circle 클래스 설명을 작성하십시오.
- * 
-<<<<<<< HEAD
- * @author (작성자 이름) 
- * @version (버전번호나 날짜)
-=======
  * @author (2018315033 태영준, 2018315021 방대호, 2018315051 Yamamoto Yoshika)
  * @version (2019.09.09)
->>>>>>> 4fecadef04c5343231aedb395bed279f346f8be2
- */
+**/
 public class Circle
 {
     // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
