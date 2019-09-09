@@ -10,19 +10,15 @@ public class Circle implements Shape
     // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
     int x;
     int y;
-    double radius;
+    int radius;
 
-    public Circle(int x, int y, double radius)
+    public Circle(int x,int y,int radius)
     {
         this.x = x;
         this.y = y;
         this.radius = radius;
     }
 
-<<<<<<< HEAD
-    public boolean equals(){
-        return
-=======
     public boolean equals(Object obj){
         if(c1.equals(c2))
             return true;
@@ -36,6 +32,5 @@ public class Circle implements Shape
     
     public double getArea(){
         return radius * radius * PI;
->>>>>>> 7cb5e58148009917560bd38c69b4d33a16763cf0
     }
 }
