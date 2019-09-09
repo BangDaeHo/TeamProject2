@@ -12,7 +12,7 @@ public class Circle implements Shape
     int y;
     double radius;
 
-    public Circle()
+    public Circle(int x, int y, double radius)
     {
         this.x = x;
         this.y = y;
@@ -20,6 +20,6 @@ public class Circle implements Shape
     }
 
     public boolean equals(){
-        return(
+        return
     }
 }
