@@ -20,7 +20,9 @@ public class Circle implements Shape
     }
 
     public boolean equals(Object obj){
-        if(c1.equals(c2))
+        Circle p = (Circle) obj;
+        
+        if(p.x == x && p.y == y)
             return true;
         else
             return false;
