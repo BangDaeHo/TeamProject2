@@ -24,8 +24,6 @@ public class Circle implements Shape
             return true;
         else
             return false;
-<<<<<<< HEAD
-=======
     }
     
     public void draw(){
@@ -34,7 +32,6 @@ public class Circle implements Shape
     
     public double getArea(){
         return radius * radius * PI;
->>>>>>> 30cc623682697b1ef62af698c5526142e9e4aec1
     }
     
     public void draw(){
